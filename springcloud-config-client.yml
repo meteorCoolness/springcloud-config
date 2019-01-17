@@ -1,7 +1,4 @@
 ﻿#配置文件环境配置
-spring:
-  profiles:
-    active: dev
     
 ---
 server:
@@ -13,20 +10,9 @@ eureka:
   client: 
     service-url: 
       defaultZone:org.lzj.springcloud-dev/eureka/  
-  
 ---
 server:
   port: 8022
-spring:
-  profiles: prod
-    name:springcloud-config-client-lzj-prod
-eureka: 
-  client: 
-    service-url: 
-      defaultZone:org.lzj.springcloud-prod/eureka/   
----
-server:
-  port: 8023
 spring:
   profiles: test
     name:springcloud-config-client-lzj-test
