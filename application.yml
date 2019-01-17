@@ -1,7 +1,8 @@
 ﻿#配置文件环境配置
 spring:
   profiles:
-    active: dev
+    active: 
+    - dev
     
 ---
 spring:
