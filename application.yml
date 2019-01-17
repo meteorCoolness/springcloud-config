@@ -14,11 +14,11 @@ spring:
 spring:
   profiles: prod
   application:
-    name:springcloud-config-lzj-dev
+    name:springcloud-config-lzj-prod
   
 ---
 spring:
   profiles: test
   application:
-    name:springcloud-config-lzj-dev
+    name:springcloud-config-lzj-test
 
