@@ -11,8 +11,6 @@ eureka:
     service-url: 
       defaultZone:org.lzj.springcloud-dev/eureka/  
 ---
-server:
-  port: 8022
 spring:
   profiles: test
     name:springcloud-config-client-lzj-test
