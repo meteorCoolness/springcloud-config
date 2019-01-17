@@ -16,7 +16,4 @@ server:
 spring:
   profiles: test
     name:springcloud-config-client-lzj-test
-eureka: 
-  client: 
-    service-url: 
-      defaultZone:org.lzj.springcloud-test/eureka/ 
+
