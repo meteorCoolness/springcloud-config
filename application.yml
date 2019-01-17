@@ -1,0 +1,20 @@
+﻿#配置文件环境配置
+spring:
+  profiles:
+    active: dev
+    
+---
+spring:
+  profiles: dev
+    name:springcloud-config-lzj-dev
+  
+---
+spring:
+  profiles: prod
+    name:springcloud-config-lzj-dev
+  
+---
+spring:
+  profiles: test
+    name:springcloud-config-lzj-dev
+
