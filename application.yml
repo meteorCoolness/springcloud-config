@@ -7,15 +7,18 @@ spring:
 ---
 spring:
   profiles: dev
+  application:
     name:springcloud-config-lzj-dev
   
 ---
 spring:
   profiles: prod
+  application:
     name:springcloud-config-lzj-dev
   
 ---
 spring:
   profiles: test
+  application:
     name:springcloud-config-lzj-dev
 
